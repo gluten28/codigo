@@ -1,0 +1,55 @@
+{
+  "name": "Código do Excel – Guia",
+  "short_name": "Excel Guia",
+  "description": "Guia completo e interativo para dominar o Excel. Aprenda fórmulas, dashboards e automação de forma prática.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F62FE",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-MZ",
+  "categories": ["education", "productivity", "business"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Fórmulas Essenciais",
+      "short_name": "Fórmulas", 
+      "description": "Acesso rápido às fórmulas mais importantes",
+      "url": "/?tab=sections&module=formulas"
+    },
+    {
+      "name": "Buscar",
+      "short_name": "Buscar",
+      "description": "Pesquisar lições e conteúdo",
+      "url": "/?tab=search"
+    },
+    {
+      "name": "Favoritos",
+      "short_name": "Favoritos",
+      "description": "Suas lições favoritas",
+      "url": "/?tab=favorites"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
